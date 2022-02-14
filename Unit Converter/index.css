@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: rgb(223, 213, 213);
+  overflow: hidden;
+}
+
+p {
+  font-size: x-large;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 50px;
+}
+
+.metric {
+  height: 50vh;
+  background-image: linear-gradient(
+    90deg,
+    hsl(226deg 51% 19%) 0%,
+    hsl(225deg 52% 21%) 6%,
+    hsl(226deg 53% 24%) 12%,
+    hsl(225deg 55% 25%) 18%,
+    hsl(225deg 56% 28%) 24%,
+    hsl(225deg 58% 30%) 29%,
+    hsl(225deg 59% 32%) 35%,
+    hsl(225deg 60% 34%) 41%,
+    hsl(225deg 61% 36%) 47%,
+    hsl(224deg 63% 38%) 53%,
+    hsl(224deg 64% 41%) 59%,
+    hsl(224deg 65% 43%) 65%,
+    hsl(224deg 67% 45%) 71%,
+    hsl(224deg 68% 47%) 76%,
+    hsl(224deg 70% 49%) 82%,
+    hsl(224deg 71% 51%) 88%,
+    hsl(224deg 72% 54%) 94%,
+    hsl(223deg 73% 56%) 100%
+  );
+}
+
+#input {
+  font-size: 10rem;
+}
+
+.result {
+  background-color: #18244a;
+}
+
+.result .result__value {
+  padding-bottom: 20px;
+}
